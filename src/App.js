@@ -1,11 +1,80 @@
-import logo from './logo.svg';
+import './App.css';
+import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom'
+import Register from './Pages/Register';
+import Home from './Pages/Home';
+import Login from './Pages/Login';
+
+function App(){
+  return(
+  <Router>
+    <nav>
+      <Link to="/">Home</Link>
+      <Link to="/Login">Login</Link>
+      <Link to="/Register">Register</Link>
+    </nav>
+    <Routes>
+      <Route path='/' element={<Home/>}> </Route>
+      <Route path='/login' element={<Login/>}> </Route>
+      <Route path='/register' element={<Register/>}> </Route>
+    </Routes>
+  </Router>
+  );
+}
+export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* import logo from './logo.svg';
 import './App.css';
 import 'boxicons';
 import { IoMdPerson, IoMdUnlock } from "react-icons/io";
-
+import ReactDOM from 'react-dom/client';
 
 
 function App() {
+
+  const Login = () => {
+    alert("Login");
+  }
+
+
+
   return (
     <div className='box'>
       <div className='container'>
@@ -26,7 +95,7 @@ function App() {
           </div>
         </div>
         <div className='input-field'>
-          <input type="submit" className='submit' value='Login'/>
+          <button className='submit' onClick={Login}> Login</button>
         </div>
         <div className='bottom'>
           <div className='left'>
@@ -44,25 +113,9 @@ function App() {
 
 
 
-    /* <div className="App">
-      <div className='registration'>
-        <h1>Registration</h1>
-        <label>Username</label>
-        <input type="text" />
-        <label>Password</label>
-        <input type="text" />
-        <button> Register</button>
-      </div>
-
-      <div className='login'>
-        <h1>Login</h1>
-        <input type="text" placeholder="Username..."/>
-        <input type="password" placeholder="Password..."/>
-        <button>Register</button>
-      </div>
-    </div> */
    
   );
 }
 
 export default App;
+ */

@@ -100,13 +100,11 @@ label a{
   position: relative;
   top: -33px;
   left: 17px;
+  width: 16px;
+  height: 16px;
 }
 
-.userSymbol{
-  position: relative;
-  top: -33px;
-  left: 17px;
-}
+
 
 
 

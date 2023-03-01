@@ -9,7 +9,6 @@ function Register(){
     <div className='box'>
       <div className='container'>
         <div className='top-header'>
-          <span>Welcome to Hydro</span>
           <header>Register</header>
         </div>
         <div className='input-field'>

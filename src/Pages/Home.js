@@ -6,7 +6,7 @@ function Home(){
         <div className='box'>
           <div className='container'>
             <div className='top-header'>
-              <header>Welome to Hydro</header>
+              <header>Welcome to Hydro</header>
             </div>
           </div>
         </div>

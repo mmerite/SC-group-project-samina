@@ -7,7 +7,6 @@ function Login(){
         <div className='box'>
           <div className='container'>
             <div className='top-header'>
-              <span>Have an account?</span>
               <header>Login</header>
             </div>
             <div className='input-field'>

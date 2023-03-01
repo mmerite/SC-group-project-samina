@@ -7,11 +7,11 @@ import Login from './Pages/Login';
 function App(){
   return(
   <Router>
-    <nav>
+    <div className='nav'>
       <Link to="/">Home</Link>
       <Link to="/Login">Login</Link>
       <Link to="/Register">Register</Link>
-    </nav>
+    </div>
     <Routes>
       <Route path='/' element={<Home/>}> </Route>
       <Route path='/login' element={<Login/>}> </Route>
